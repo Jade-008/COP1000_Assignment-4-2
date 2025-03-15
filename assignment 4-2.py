@@ -4,7 +4,7 @@
 employeeName= (input("Enter the employee's name: "))
 numShifts= int(input("Enter the number of shifts: "))
 numTransactions= int(input("Enter the number of transactions: "))
-transactionValue= float(input("Enter transaction dollar value: "))
+transactionValue= int(input("Enter transaction dollar value: "))
 
 #calculate the productivity score
 productivityScore = (transactionValue / numTransactions) / numShifts
